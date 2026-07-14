@@ -492,7 +492,7 @@ jobs:
           
           enum DownloadStatus: String {
               case waiting = "في الانتظار"; case downloading = "جاري التحميل"
-              case completed = "مكتمل"; case failed = "فشل"; case paused = "متوقف"
+              case completed = "مكتمل"; case failed = " فشل"; case paused = "متوقف"
           }
           
           class ActiveDownload: ObservableObject, Identifiable {
